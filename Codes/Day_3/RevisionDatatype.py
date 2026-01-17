@@ -1,0 +1,20 @@
+no=11
+
+#Numeric data type
+print("------------------------------------")
+
+print(no)
+print(type(no))
+print("------------------------------------")
+
+marks = 90.78
+print(marks)
+print(type(marks))
+print("------------------------------------")
+
+x = 3+4j
+print(x)
+print(type(x))
+print("------------------------------------")
+
+
