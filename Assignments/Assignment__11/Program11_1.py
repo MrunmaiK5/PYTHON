@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   IsPrime
+#   Description     :   Checks whether given number is prime or not
+#   Input           :   Integer
+#   Output          :   Boolean
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   17/01/26
+#######################################################################################
+
 def IsPrime(a):
     bFlag = False
     for i in range(2,a):

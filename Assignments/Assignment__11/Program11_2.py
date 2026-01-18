@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   CountDigits
+#   Description     :   Returns number of digits from given number
+#   Input           :   Integer
+#   Output          :   Integer
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   17/01/26
+#######################################################################################
+
 def CountDigits(a):
     Count = 0
     while a > 0:
@@ -6,9 +15,8 @@ def CountDigits(a):
 
     return Count
 
-
 def main():
-    Ret = CountDigits(1234567)
+    Ret = CountDigits(7521)
     
     print("No. of digits are :",Ret)
 

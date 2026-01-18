@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   ReverseNum
+#   Description     :   Reverses the given number
+#   Input           :   Integer
+#   Output          :   Integer
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   17/01/26
+#######################################################################################
+
 def ReverseNum(a):
     num = 0
     Digit = 0

@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   SumOfDigits
+#   Description     :   Displays summation of digits of a number
+#   Input           :   Integer
+#   Output          :   Integer
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   17/01/26
+#######################################################################################
+
 def SumOfDigits(a):
     Sum = 0
     Digit = 0

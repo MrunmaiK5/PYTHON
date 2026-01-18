@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   IsPalindrome
+#   Description     :   Checks whether the given number is palindrome or not
+#   Input           :   Integer
+#   Output          :   Boolean
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   17/01/26
+#######################################################################################
+
 def IsPalindrome(a):
     original = a
     num = 0
