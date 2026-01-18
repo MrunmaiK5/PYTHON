@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   DisplayGrade
+#   Description     :   Displays grade according to given marks
+#   Input           :   Integer
+#   Output          :   Nothing
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   18/01/26
+#######################################################################################
+
 def DisplayGrade(No):
     if No >= 75:
         print("Distinction")

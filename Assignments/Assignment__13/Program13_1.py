@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   AreaOfRect
+#   Description     :   Calculates area of rectangle
+#   Input           :   Integer
+#   Output          :   Integer
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   18/01/26
+#######################################################################################
+
 def AreaOfRect(Len, Wid):
     Area = 0
     Area = Len * Wid

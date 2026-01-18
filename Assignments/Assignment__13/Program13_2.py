@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   AreaOfCircle
+#   Description     :   Calculates area of circle
+#   Input           :   float
+#   Output          :   float
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   18/01/26
+#######################################################################################
+
 def AreaOfCircle(radius):
     Area = 0.0
     Area = float(3.14 * (radius**2))

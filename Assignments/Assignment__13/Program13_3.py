@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   PerfectNo
+#   Description     :   Checks whether given number is a perfect number or not
+#   Input           :   Integer
+#   Output          :   Boolean
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   18/01/26
+#######################################################################################
+
 def PerfectNo(No):
     Sum = 0
     for i in range(1,No):
