@@ -1,6 +1,6 @@
 #######################################################################################
 #   Function name   :   DisplayGrade
-#   Description     :   Displays grade according to given marks
+#   Description     :   Displays grade according to marks
 #   Input           :   Integer
 #   Output          :   Nothing
 #   Author          :   Mrunmai Jitendra Khadpe
