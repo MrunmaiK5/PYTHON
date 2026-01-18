@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   NNumbers
+#   Description     :   Displays n natural numbers
+#   Input           :   Integer
+#   Output          :   Nothing
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   17/01/26
+#######################################################################################
+
 def NNumbers(No):
     for i in range(1,No+1):
         print(i)
