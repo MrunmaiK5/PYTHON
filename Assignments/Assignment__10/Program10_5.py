@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   OddNum
+#   Description     :   Displays odd n natural numbers
+#   Input           :   Integer
+#   Output          :   Nothing
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   17/01/26
+#######################################################################################
+
 def OddNum(a):
     for i in range(1,a+1):
         if i%2 != 0:
