@@ -1,3 +1,12 @@
+#######################################################################################
+#   Function name   :   ChkGreater
+#   Description     :   Displays the greater number from given two numbers
+#   Input           :   Integer, Integer
+#   Output          :   Nothing
+#   Author          :   Mrunmai Jitendra Khadpe
+#   Date            :   17/01/26
+#######################################################################################
+
 def ChkGreater(a, b):
     if a > b:
         print(a)
