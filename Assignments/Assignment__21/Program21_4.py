@@ -45,15 +45,15 @@ def main():
         Brr.append(int(input()))
 
     t1 = threading.Thread(target=SumOfElements, args=(Brr,))
-    t1.start()
-    t1.join()
-
-    print("Sum of elements :",Sum)
-
     t2 = threading.Thread(target=ProdcOfElements, args=(Brr,))
+
+    t1.start()
     t2.start()
+
+    t1.join()
     t2.join()
 
+    print("Sum of elements :",Sum)
     print("Product of elements :",Product)
 
 if __name__ == "__main__":

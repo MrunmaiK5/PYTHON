@@ -54,11 +54,12 @@ def main():
     Brr = [34,31,2,13,73,7,23]
 
     t1 = threading.Thread(target=Prime, args=(Brr,))
-    t1.start()
-    t1.join()
-
     t2 = threading.Thread(target=NonPrime, args=(Brr,))
+
+    t1.start()
     t2.start()
+
+    t1.join()
     t2.join()
 
 

@@ -52,11 +52,12 @@ def main():
         Brr.append(int(input()))
 
     t1 = threading.Thread(target=Max, args=(Brr,))
-    t1.start()
-    t1.join()
-
     t2 = threading.Thread(target=Min, args=(Brr,))
+
+    t1.start()
     t2.start()
+
+    t1.join()
     t2.join()
 
 
