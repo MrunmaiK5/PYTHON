@@ -15,34 +15,31 @@ lock = threading.Lock()
 def Thread1():
     global SharedCounter
 
-    for i in range(10000):
-        lock.acquire()
-        SharedCounter += 2
-        lock.release()
+    for i in range(100000):
+        with lock:
+            SharedCounter += 2
+        
 
 def Thread2():
     global SharedCounter
 
-    for i in range(10000):
-        lock.acquire()
-        SharedCounter -=1
-        lock.release()
+    for i in range(100000):
+        with lock:
+            SharedCounter -=1
 
 def Thread3():
     global SharedCounter
 
-    for i in range(10000):
-        lock.acquire()
-        SharedCounter += 2
-        lock.release()
+    for i in range(100000):
+        with lock:
+            SharedCounter += 2
 
 def Thread4():
     global SharedCounter
 
-    for i in range(10000):
-        lock.acquire()
-        SharedCounter += 1
-        lock.release()
+    for i in range(100000):
+        with lock:
+            SharedCounter += 1
 
 def main(): 
     t1 = threading.Thread(target=Thread1)
