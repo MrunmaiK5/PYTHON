@@ -20,7 +20,6 @@ def Max(Arr):
 
     print()
 
-
 #######################################################################################
 #   Function name   :   Min
 #   Description     :   Displays smallest element from the list
